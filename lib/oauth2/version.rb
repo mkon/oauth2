@@ -27,7 +27,7 @@ module OAuth2
     #
     # @return [Integer, NilClass]
     def pre
-      nil
+      'faraday'
     end
 
     # The version number as a hash
